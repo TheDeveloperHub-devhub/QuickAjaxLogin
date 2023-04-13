@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DeveloperHub_QuickAjaxLogin::menu"
+             title="Quick Ajax Login"
+             module="DeveloperHub_QuickAjaxLogin"
+             sortOrder="50"
+             resource="DeveloperHub_QuickAjaxLogin::menu"
+             parent="DeveloperHub_Core::developerhub"
+        />
+        <add id="DeveloperHub_QuickAjaxLogin::configuration"
+             title="Configuration"
+             module="DeveloperHub_QuickAjaxLogin"
+             sortOrder="10"
+             action="adminhtml/system_config/edit/section/quickajaxlogin"
+             resource="DeveloperHub_QuickAjaxLogin::config"
+             parent="DeveloperHub_QuickAjaxLogin::menu"
+        />
+    </menu>
+</config>
