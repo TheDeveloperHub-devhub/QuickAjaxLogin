@@ -14,8 +14,7 @@
 
 1. Please run the following command
 ```shell
-composer require developerhub/core
-composer require developerhub/quick-ajax-login
+composer require devhub/quick-ajax-login
 ```
 
 2. Update the composer if required
